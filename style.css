@@ -1,0 +1,85 @@
+.mon_logo{
+    max-width: 70px;
+}
+.btnInscription{
+    background-color: var(--bs-primary);
+    color: white;
+}
+.btnConnexion{
+    background-color: var(--bs-success);
+    color: white;
+}
+.bof1,.bof2{
+    border: 1px solid rgba(4, 1, 1, 0.235);
+}
+#RULES .title-RULES,#APROPOS .title-APROPOS{
+    text-align: center;
+}
+.section2{
+    background: url('Assets/dowload.jpg') no-repeat;
+}
+.modal-header{
+  color: white;
+}
+.section3{
+    background-color: rgba(233, 221, 221, 0.921);
+}
+.icon{
+    color: #d63384;
+}
+footer,.pieds{
+    background-color:rgba(201, 137, 169, 0.204);
+}
+form .modal{
+    margin-left: 40px;
+    margin-right: 45px; 
+  }
+  .pa1{
+   width: auto;
+   background-color: #0000;
+   padding: 10px 5px 10px 5px ;
+   border: 1px solid #20c997 ;
+   border-radius: 5px; 
+  }
+  .pa{ 
+    width: auto;
+     background-color: #0000;
+    padding: 10px 5px 10px 5px ;
+    border: 1px solid #1f9deb ;
+    border-radius: 5px;
+  }
+  .Ip1{
+    background-color:  #0000;
+     width: 85%;
+     color: rgb(0, 0, 0);
+     height: 25px;
+     border:none;
+     outline:#20c997;
+     font-size: 12px;
+   }
+   .Ip1:focus{
+     border:1px solid #20c997;
+   }
+   .pa1 .fa-solid{
+    color: #20c997;
+   }
+  .Ip{
+   background-color:  #0000;
+    width: 85%;
+    color: rgb(0, 0, 0);
+    height: 25px;
+    border:none;
+    outline:#1f9deb;
+    font-size: 12px;
+  }
+  .Ip:focus{
+    border:1px solid #1f9deb;
+  }
+  form .fa-solid{
+    color: var(--bs-primary);
+    margin-right: 5px;
+  }
+  .modal-body{
+    background-color: rgba(220, 211, 211, 0.62);
+  }
+  

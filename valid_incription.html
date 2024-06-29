@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="css\bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="fontawesome-free-6.1.1-web\css\all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Inscription réussie👻</title>
+</head>
+
+<body style="background-image:url(Assets/triangles-1430105_1280.png); background-size:cover;background-attachment:fixed;background-position: center;">
+  <!--page de'inscription reussi pour l'utilisateur//////////////////////////////////////////////////////////////////////////////////////////////-->
+  <section style="display:grid;justify-content:center;align-items: center;color:white;height:50vh;">
+    <h1>Bienvenue sur le page success</h1>
+    <button style="background-color:#d63384" type="button" class="btn btn-outline; btnConnexion me-5" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Se connecter</button>
+
+    <!-- Pop-Up Se Connecter///////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="Inscription" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header bg-success">
+            <h5 class="modal-title" id="Con09][nexion">Entrez les informations de votre compte</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form name="Formulaire" action="#" method="post" autocomplete="on" id="Connect">
+              <div>
+                <p>Veuillez entrer votre adresse mail
+                <div class="pa1"><i class="fa-solid fa-envelope"></i>
+                  <input class="Ip1" type="email" name="mail" placeholder="Adresse mail" required>
+                </div>
+                </p>
+                <p>Veuillez entrer votre mot de passe
+                <div class="pa1"><i class="fa-solid fa-lock"></i>
+                  <input class="Ip1" type="password" name="password" placeholder="Entrez un mot de passe" required>
+                </div>
+                </p>
+                <p style="text-align:center">
+                  <button type="submit" style="width:60%;" class="btn btn-success">Login</button>
+                </p>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Annuler</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="js\bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
